@@ -1,0 +1,206 @@
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+dataset: nell_v1_ind
+disable_cuda: False
+dropout: 0
+early_stop: 100
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+eval_every: 3
+eval_every_iter: 455
+exp_dir: experiments\grail_nell_v1_ind
+experiment_name: grail_nell_v1_ind
+gnn_agg_type: sum
+gpu: 0
+has_attn: True
+hop: 3
+kge_model: TransE
+l2: 0.0005
+load_model: False
+local_clustering: False
+lr: 0.01
+main_dir: utils\..
+margin: 10
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+num_bases: 4
+num_epochs: 50
+num_gcn_layers: 3
+num_neg_samples_per_link: 1
+num_workers: 8
+optimizer: Adam
+rel_emb_dim: 32
+save_every: 10
+train_file: train
+use_kge_embeddings: False
+valid_file: valid
+============================================
+Sampling negative links for train
+Sampling negative links for valid
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+dataset: nell_v1_ind
+disable_cuda: False
+dropout: 0
+early_stop: 100
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+eval_every: 3
+eval_every_iter: 455
+exp_dir: experiments\grail_nell_v1_ind
+experiment_name: grail_nell_v1_ind
+gnn_agg_type: sum
+gpu: 0
+has_attn: True
+hop: 3
+kge_model: TransE
+l2: 0.0005
+load_model: False
+local_clustering: False
+lr: 0.01
+main_dir: utils\..
+margin: 10
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+num_bases: 4
+num_epochs: 50
+num_gcn_layers: 3
+num_neg_samples_per_link: 1
+num_workers: 8
+optimizer: Adam
+rel_emb_dim: 32
+save_every: 10
+train_file: train
+use_kge_embeddings: False
+valid_file: valid
+============================================
+Sampling negative links for train
+Sampling negative links for valid
+Extracting enclosing subgraphs for positive links in train set
+Extracting enclosing subgraphs for negative links in train set
+Extracting enclosing subgraphs for positive links in valid set
+Extracting enclosing subgraphs for negative links in valid set
+Max distance from sub : 3, Max distance from obj : 3
+Max distance from sub : 3, Max distance from obj : 3
+No existing model found. Initializing new model..
+Device: cpu
+Input dim : 8, # Relations : 14, # Augmented relations : 14
+Total number of parameters: 21884
+Starting training with full batch...
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+dataset: nell_v1_ind
+disable_cuda: False
+dropout: 0
+early_stop: 100
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+eval_every: 3
+eval_every_iter: 455
+exp_dir: experiments\grail_nell_v1_ind
+experiment_name: grail_nell_v1_ind
+gnn_agg_type: sum
+gpu: 0
+has_attn: True
+hop: 3
+kge_model: TransE
+l2: 0.0005
+load_model: False
+local_clustering: False
+lr: 0.01
+main_dir: utils\..
+margin: 10
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+num_bases: 4
+num_epochs: 50
+num_gcn_layers: 3
+num_neg_samples_per_link: 1
+num_workers: 8
+optimizer: Adam
+rel_emb_dim: 32
+save_every: 10
+train_file: train
+use_kge_embeddings: False
+valid_file: valid
+============================================
+Sampling negative links for train
+Sampling negative links for valid
+Extracting enclosing subgraphs for positive links in train set
+Extracting enclosing subgraphs for negative links in train set
+Extracting enclosing subgraphs for positive links in valid set
+Extracting enclosing subgraphs for negative links in valid set
+Max distance from sub : 3, Max distance from obj : 3
+Max distance from sub : 3, Max distance from obj : 3
+No existing model found. Initializing new model..
+Device: cpu
+Input dim : 8, # Relations : 14, # Augmented relations : 14
+Total number of parameters: 21884
+Starting training with full batch...
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+dataset: nell_v1_ind
+disable_cuda: False
+dropout: 0
+early_stop: 100
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+eval_every: 3
+eval_every_iter: 455
+exp_dir: experiments\grail_nell_v1_ind
+experiment_name: grail_nell_v1_ind
+gnn_agg_type: sum
+gpu: 0
+has_attn: True
+hop: 3
+kge_model: TransE
+l2: 0.0005
+load_model: False
+local_clustering: False
+lr: 0.01
+main_dir: utils\..
+margin: 10
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+num_bases: 4
+num_epochs: 50
+num_gcn_layers: 3
+num_neg_samples_per_link: 1
+num_workers: 8
+optimizer: Adam
+rel_emb_dim: 32
+save_every: 10
+train_file: train
+use_kge_embeddings: False
+valid_file: valid
+============================================
+Sampling negative links for train
+Sampling negative links for valid

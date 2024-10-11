@@ -1,0 +1,144 @@
+============ Initialized logger ============
+add_traspose_rels: False
+batch_size: 16
+constrained_neg_prob: 0
+dataset: nell_v2
+disable_cuda: False
+enclosing_sub_graph: True
+exp_dir: experiments\grail_nell_v2
+experiment_name: grail_nell_v2
+gpu: 0
+hop: 3
+kge_model: TransE
+main_dir: utils\..
+max_links: 100000
+max_nodes_per_hop: None
+model_type: dgl
+num_neg_samples_per_link: 1
+num_workers: 0
+runs: 1
+test_exp_dir: experiments\grail_nell_v2\test_nell_v2_0
+test_file: test
+train_file: train
+use_kge_embeddings: False
+============================================
+Loading existing model from experiments\grail_nell_v2\best_graph_classifier.pth
+Device: cpu
+Sampling negative links for test
+Extracting enclosing subgraphs for positive links in test set
+Extracting enclosing subgraphs for negative links in test set
+Max distance from sub : 3, Max distance from obj : 3
+
+Test Set Performance:{'auc': 0.8968708378867564, 'auc_pr': 0.9014024654149041}
+
+Avg test Set Performance -- mean auc :0.8968708378867564 std auc: 0.0
+
+Avg test Set Performance -- mean auc_pr :0.9014024654149041 std auc_pr: 0.0
+============ Initialized logger ============
+add_traspose_rels: False
+batch_size: 16
+constrained_neg_prob: 0
+dataset: nell_v2
+disable_cuda: False
+enclosing_sub_graph: True
+exp_dir: experiments\grail_nell_v2
+experiment_name: grail_nell_v2
+gpu: 0
+hop: 3
+kge_model: TransE
+main_dir: utils\..
+max_links: 100000
+max_nodes_per_hop: None
+model_type: dgl
+num_neg_samples_per_link: 1
+num_workers: 0
+runs: 1
+test_exp_dir: experiments\grail_nell_v2\test_nell_v2_0
+test_file: test
+train_file: train
+use_kge_embeddings: False
+============================================
+Loading existing model from experiments\grail_nell_v2\best_graph_classifier.pth
+Device: cpu
+Sampling negative links for test
+Extracting enclosing subgraphs for positive links in test set
+Extracting enclosing subgraphs for negative links in test set
+Max distance from sub : 3, Max distance from obj : 3
+
+Test Set Performance:{'auc': 0.895474395533092, 'auc_pr': 0.9048624431765353}
+
+Avg test Set Performance -- mean auc :0.895474395533092 std auc: 0.0
+
+Avg test Set Performance -- mean auc_pr :0.9048624431765353 std auc_pr: 0.0
+============ Initialized logger ============
+add_traspose_rels: False
+batch_size: 16
+constrained_neg_prob: 0
+dataset: nell_v2
+disable_cuda: False
+enclosing_sub_graph: True
+exp_dir: experiments\grail_nell_v2
+experiment_name: grail_nell_v2
+gpu: 0
+hop: 3
+kge_model: TransE
+main_dir: utils\..
+max_links: 100000
+max_nodes_per_hop: None
+model_type: dgl
+num_neg_samples_per_link: 1
+num_workers: 0
+runs: 1
+test_exp_dir: experiments\grail_nell_v2\test_nell_v2_0
+test_file: test
+train_file: train
+use_kge_embeddings: False
+============================================
+Loading existing model from experiments\grail_nell_v2\best_graph_classifier.pth
+Device: cpu
+Sampling negative links for test
+Extracting enclosing subgraphs for positive links in test set
+Extracting enclosing subgraphs for negative links in test set
+Max distance from sub : 3, Max distance from obj : 3
+
+Test Set Performance:{'auc': 0.9014288854927942, 'auc_pr': 0.9134904977776019}
+
+Avg test Set Performance -- mean auc :0.9014288854927942 std auc: 0.0
+
+Avg test Set Performance -- mean auc_pr :0.9134904977776019 std auc_pr: 0.0
+============ Initialized logger ============
+add_traspose_rels: False
+batch_size: 16
+constrained_neg_prob: 0
+dataset: nell_v2
+disable_cuda: False
+enclosing_sub_graph: True
+exp_dir: experiments\grail_nell_v2
+experiment_name: grail_nell_v2
+gpu: 0
+hop: 3
+kge_model: TransE
+main_dir: utils\..
+max_links: 100000
+max_nodes_per_hop: None
+model_type: dgl
+num_neg_samples_per_link: 1
+num_workers: 0
+runs: 1
+test_exp_dir: experiments\grail_nell_v2\test_nell_v2_0
+test_file: test
+train_file: train
+use_kge_embeddings: False
+============================================
+Loading existing model from experiments\grail_nell_v2\best_graph_classifier.pth
+Device: cpu
+Sampling negative links for test
+Extracting enclosing subgraphs for positive links in test set
+Extracting enclosing subgraphs for negative links in test set
+Max distance from sub : 3, Max distance from obj : 3
+
+Test Set Performance:{'auc': 0.8913560378389453, 'auc_pr': 0.8972435278716875}
+
+Avg test Set Performance -- mean auc :0.8913560378389453 std auc: 0.0
+
+Avg test Set Performance -- mean auc_pr :0.8972435278716875 std auc_pr: 0.0

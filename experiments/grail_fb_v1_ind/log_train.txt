@@ -1,0 +1,336 @@
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+dataset: fb237_v1_ind
+disable_cuda: False
+dropout: 0
+early_stop: 100
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+eval_every: 3
+eval_every_iter: 455
+exp_dir: experiments\grail_fb_v1_ind
+experiment_name: grail_fb_v1_ind
+gnn_agg_type: sum
+gpu: 0
+has_attn: True
+hop: 3
+kge_model: TransE
+l2: 0.0005
+load_model: False
+local_clustering: False
+lr: 0.01
+main_dir: utils\..
+margin: 10
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+num_bases: 4
+num_epochs: 50
+num_gcn_layers: 3
+num_neg_samples_per_link: 1
+num_workers: 8
+optimizer: Adam
+rel_emb_dim: 32
+save_every: 10
+train_file: train
+use_kge_embeddings: False
+valid_file: valid
+============================================
+Sampling negative links for train
+Sampling negative links for valid
+Extracting enclosing subgraphs for positive links in train set
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+dataset: fb237_v1_ind
+disable_cuda: False
+dropout: 0
+early_stop: 100
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+eval_every: 3
+eval_every_iter: 455
+exp_dir: experiments\grail_fb_v1_ind
+experiment_name: grail_fb_v1_ind
+gnn_agg_type: sum
+gpu: 0
+has_attn: True
+hop: 3
+kge_model: TransE
+l2: 0.0005
+load_model: False
+local_clustering: False
+lr: 0.01
+main_dir: utils\..
+margin: 10
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+num_bases: 4
+num_epochs: 50
+num_gcn_layers: 3
+num_neg_samples_per_link: 1
+num_workers: 8
+optimizer: Adam
+rel_emb_dim: 32
+save_every: 10
+train_file: train
+use_kge_embeddings: False
+valid_file: valid
+============================================
+Sampling negative links for train
+Sampling negative links for valid
+Extracting enclosing subgraphs for positive links in train set
+Extracting enclosing subgraphs for negative links in train set
+Extracting enclosing subgraphs for positive links in valid set
+Extracting enclosing subgraphs for negative links in valid set
+Max distance from sub : 3, Max distance from obj : 3
+Max distance from sub : 3, Max distance from obj : 3
+No existing model found. Initializing new model..
+Device: cpu
+Input dim : 8, # Relations : 142, # Augmented relations : 142
+Total number of parameters: 31612
+Starting training with full batch...
+Epoch 1 with loss: 10709.9150390625, training auc: 0.7508286025675917, training auc_pr: 0.7907530270311309, best validation AUC: 0, weight_norm: 135.27171325683594 in 12.41277289390564
+Epoch 2 with loss: 9445.1220703125, training auc: 0.7833611821002209, training auc_pr: 0.8245623857479526, best validation AUC: 0, weight_norm: 121.86644744873047 in 12.257226943969727
+Epoch 3 with loss: 9324.1611328125, training auc: 0.7691987183441089, training auc_pr: 0.8186278846131195, best validation AUC: 0, weight_norm: 128.9144287109375 in 12.692062377929688
+
+Performance:{'auc': 0.0, 'auc_pr': 0.0}in 0.011968374252319336
+Better models found w.r.t accuracy. Saved it!
+Epoch 4 with loss: 9167.4296875, training auc: 0.768535962169651, training auc_pr: 0.820666189690908, best validation AUC: 0.0, weight_norm: 136.9154510498047 in 12.247249841690063
+Epoch 5 with loss: 8993.5673828125, training auc: 0.7673180768918006, training auc_pr: 0.8211603868069763, best validation AUC: 0.0, weight_norm: 144.2276611328125 in 13.427096128463745
+Epoch 6 with loss: 9059.435546875, training auc: 0.772744243588133, training auc_pr: 0.8278153545563984, best validation AUC: 0.0, weight_norm: 146.69580078125 in 12.263211488723755
+Epoch 7 with loss: 8920.8837890625, training auc: 0.7725998596694049, training auc_pr: 0.8325325998537335, best validation AUC: 0.0, weight_norm: 147.58282470703125 in 12.096655130386353
+
+Performance:{'auc': 0.0, 'auc_pr': 0.0}in 0.012966394424438477
+Better models found w.r.t accuracy. Saved it!
+Epoch 8 with loss: 8728.51953125, training auc: 0.7613218014178575, training auc_pr: 0.8290884770669489, best validation AUC: 0.0, weight_norm: 148.3551483154297 in 12.558420181274414
+Epoch 9 with loss: 8842.974609375, training auc: 0.7698120038297614, training auc_pr: 0.832057101384406, best validation AUC: 0.0, weight_norm: 148.91415405273438 in 12.244259357452393
+Epoch 10 with loss: 8905.8837890625, training auc: 0.7721819393466698, training auc_pr: 0.8320546495470036, best validation AUC: 0.0, weight_norm: 150.3866729736328 in 13.0560884475708
+
+Performance:{'auc': 0.0, 'auc_pr': 0.0}in 0.010972261428833008
+Better models found w.r.t accuracy. Saved it!
+Epoch 11 with loss: 9014.560546875, training auc: 0.7755044059124145, training auc_pr: 0.8332962031952318, best validation AUC: 0.0, weight_norm: 164.7947235107422 in 12.473646640777588
+Epoch 12 with loss: 9254.357421875, training auc: 0.7659559335748376, training auc_pr: 0.8234764932132864, best validation AUC: 0.0, weight_norm: 180.4392852783203 in 13.012206077575684
+Epoch 13 with loss: 9033.2373046875, training auc: 0.763719933968589, training auc_pr: 0.8267742069344389, best validation AUC: 0.0, weight_norm: 186.72190856933594 in 12.947381258010864
+Epoch 14 with loss: 8998.3388671875, training auc: 0.7682585234975701, training auc_pr: 0.8264607659607306, best validation AUC: 0.0, weight_norm: 190.275390625 in 13.249571800231934
+
+Performance:{'auc': 0.0, 'auc_pr': 0.0}in 0.009977340698242188
+Better models found w.r.t accuracy. Saved it!
+Epoch 15 with loss: 8815.3623046875, training auc: 0.7706378999856245, training auc_pr: 0.8316925034372731, best validation AUC: 0.0, weight_norm: 192.1541290283203 in 13.04312014579773
+Epoch 16 with loss: 8850.8173828125, training auc: 0.7749000578794472, training auc_pr: 0.8309139134534402, best validation AUC: 0.0, weight_norm: 198.44952392578125 in 12.859616041183472
+Epoch 17 with loss: 8629.5810546875, training auc: 0.7698257247078271, training auc_pr: 0.8282703331616607, best validation AUC: 0.0, weight_norm: 201.82643127441406 in 12.551438808441162
+Epoch 18 with loss: 8831.439453125, training auc: 0.7788971133034865, training auc_pr: 0.8336706852600922, best validation AUC: 0.0, weight_norm: 204.45700073242188 in 13.196710109710693
+
+Performance:{'auc': 0.0, 'auc_pr': 0.0}in 0.013999462127685547
+Better models found w.r.t accuracy. Saved it!
+Epoch 19 with loss: 8476.6201171875, training auc: 0.7634413623799706, training auc_pr: 0.8280427707586323, best validation AUC: 0.0, weight_norm: 205.37954711914062 in 13.557749032974243
+Epoch 20 with loss: 8855.6474609375, training auc: 0.7696103446860802, training auc_pr: 0.8303748595387248, best validation AUC: 0.0, weight_norm: 207.658935546875 in 13.02018427848816
+Epoch 21 with loss: 8720.369140625, training auc: 0.7798837577280643, training auc_pr: 0.8413188481588827, best validation AUC: 0.0, weight_norm: 207.51910400390625 in 13.511868715286255
+
+Performance:{'auc': 0.0, 'auc_pr': 0.0}in 0.012009382247924805
+Better models found w.r.t accuracy. Saved it!
+Epoch 22 with loss: 8801.080078125, training auc: 0.7865222709991745, training auc_pr: 0.8423396721737253, best validation AUC: 0.0, weight_norm: 206.88575744628906 in 12.731955766677856
+Epoch 23 with loss: 8815.29296875, training auc: 0.7676639940745948, training auc_pr: 0.8296628362375362, best validation AUC: 0.0, weight_norm: 208.73117065429688 in 13.721310138702393
+Epoch 24 with loss: 8852.9091796875, training auc: 0.7707245051609384, training auc_pr: 0.8315310601148116, best validation AUC: 0.0, weight_norm: 211.86312866210938 in 13.214667320251465
+Epoch 25 with loss: 8572.5908203125, training auc: 0.7746289131881303, training auc_pr: 0.8346276757060067, best validation AUC: 0.0, weight_norm: 212.2650909423828 in 13.262533903121948
+
+Performance:{'auc': 0.0, 'auc_pr': 0.0}in 0.013963937759399414
+Better models found w.r.t accuracy. Saved it!
+Epoch 26 with loss: 8462.1708984375, training auc: 0.7635074491779934, training auc_pr: 0.8309386930539758, best validation AUC: 0.0, weight_norm: 212.7466278076172 in 12.69904637336731
+Epoch 27 with loss: 8636.779296875, training auc: 0.7742443509634447, training auc_pr: 0.8312113005145284, best validation AUC: 0.0, weight_norm: 216.35165405273438 in 12.57237958908081
+Epoch 28 with loss: 9023.6416015625, training auc: 0.7746533338334951, training auc_pr: 0.8324428309889198, best validation AUC: 0.0, weight_norm: 220.4720916748047 in 13.754222869873047
+Epoch 29 with loss: 8516.5673828125, training auc: 0.7763519533621062, training auc_pr: 0.835538047664812, best validation AUC: 0.0, weight_norm: 221.9808807373047 in 12.637210130691528
+
+Performance:{'auc': 0.0, 'auc_pr': 0.0}in 0.013962030410766602
+Better models found w.r.t accuracy. Saved it!
+Epoch 30 with loss: 8112.2587890625, training auc: 0.7776436040945114, training auc_pr: 0.8408913229559196, best validation AUC: 0.0, weight_norm: 220.91604614257812 in 13.044119358062744
+Epoch 31 with loss: 8519.8046875, training auc: 0.7742474979538267, training auc_pr: 0.834613783323836, best validation AUC: 0.0, weight_norm: 223.97865295410156 in 12.73594617843628
+Epoch 32 with loss: 8683.330078125, training auc: 0.7695171937707718, training auc_pr: 0.8335149646790786, best validation AUC: 0.0, weight_norm: 224.1117401123047 in 12.572381973266602
+
+Performance:{'auc': 0.0, 'auc_pr': 0.0}in 0.01399993896484375
+Better models found w.r.t accuracy. Saved it!
+Epoch 33 with loss: 8364.353515625, training auc: 0.771788817308145, training auc_pr: 0.8359162791307866, best validation AUC: 0.0, weight_norm: 223.63055419921875 in 13.887864112854004
+Epoch 34 with loss: 8729.2236328125, training auc: 0.7705638827718388, training auc_pr: 0.8318916968849122, best validation AUC: 0.0, weight_norm: 224.70516967773438 in 12.91247296333313
+Epoch 35 with loss: 8501.353515625, training auc: 0.7755576529896786, training auc_pr: 0.8360122871176126, best validation AUC: 0.0, weight_norm: 224.665771484375 in 13.431086540222168
+Epoch 36 with loss: 8586.8447265625, training auc: 0.7708492518596826, training auc_pr: 0.8314301895739831, best validation AUC: 0.0, weight_norm: 225.3800048828125 in 12.701037406921387
+
+Performance:{'auc': 0.0, 'auc_pr': 0.0}in 0.009972333908081055
+Better models found w.r.t accuracy. Saved it!
+Epoch 37 with loss: 8200.921875, training auc: 0.7740088302032528, training auc_pr: 0.8372070156082947, best validation AUC: 0.0, weight_norm: 225.68746948242188 in 13.40814733505249
+Epoch 38 with loss: 8429.8076171875, training auc: 0.7814849464344473, training auc_pr: 0.8395378142613197, best validation AUC: 0.0, weight_norm: 224.23471069335938 in 13.117925643920898
+Epoch 39 with loss: 8602.71484375, training auc: 0.774940213476722, training auc_pr: 0.8344842914870099, best validation AUC: 0.0, weight_norm: 224.97396850585938 in 12.664135932922363
+Epoch 40 with loss: 8349.51953125, training auc: 0.7739880600667313, training auc_pr: 0.8372667559406206, best validation AUC: 0.0, weight_norm: 231.58792114257812 in 13.121914863586426
+
+Performance:{'auc': 0.0, 'auc_pr': 0.0}in 0.013961076736450195
+Better models found w.r.t accuracy. Saved it!
+Epoch 41 with loss: 8049.431640625, training auc: 0.774035768440923, training auc_pr: 0.8384885692197772, best validation AUC: 0.0, weight_norm: 229.87449645996094 in 12.807738304138184
+Epoch 42 with loss: 8527.2060546875, training auc: 0.7778446338401163, training auc_pr: 0.8384586654471022, best validation AUC: 0.0, weight_norm: 230.3369140625 in 13.69737434387207
+Epoch 43 with loss: 8679.8798828125, training auc: 0.7655820711174509, training auc_pr: 0.8296130099146921, best validation AUC: 0.0, weight_norm: 240.61868286132812 in 12.94039797782898
+
+Performance:{'auc': 0.0, 'auc_pr': 0.0}in 0.009971141815185547
+Better models found w.r.t accuracy. Saved it!
+Epoch 44 with loss: 8450.6572265625, training auc: 0.7703546708512408, training auc_pr: 0.8335335535739177, best validation AUC: 0.0, weight_norm: 240.89955139160156 in 12.665135383605957
+Epoch 45 with loss: 8837.8173828125, training auc: 0.7710529250772082, training auc_pr: 0.8321049882631381, best validation AUC: 0.0, weight_norm: 248.00491333007812 in 12.958351135253906
+Epoch 46 with loss: 8601.4326171875, training auc: 0.7730078355025327, training auc_pr: 0.8341033326904399, best validation AUC: 0.0, weight_norm: 247.1505889892578 in 13.384212493896484
+Epoch 47 with loss: 8444.1220703125, training auc: 0.7784765495088303, training auc_pr: 0.8385259502829344, best validation AUC: 0.0, weight_norm: 250.96424865722656 in 12.835676670074463
+
+Performance:{'auc': 0.0, 'auc_pr': 0.0}in 0.013963937759399414
+Better models found w.r.t accuracy. Saved it!
+Epoch 48 with loss: 8151.5048828125, training auc: 0.7788674057142799, training auc_pr: 0.8404747972969401, best validation AUC: 0.0, weight_norm: 250.48721313476562 in 14.153156280517578
+Epoch 49 with loss: 8676.9951171875, training auc: 0.7755799336815834, training auc_pr: 0.835599627564502, best validation AUC: 0.0, weight_norm: 252.1803436279297 in 12.76486611366272
+Epoch 50 with loss: 8414.4033203125, training auc: 0.7812228650754307, training auc_pr: 0.8415234303372487, best validation AUC: 0.0, weight_norm: 251.09716796875 in 13.16878628730774
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+dataset: fb237_v1_ind
+disable_cuda: False
+dropout: 0
+early_stop: 100
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+eval_every: 3
+eval_every_iter: 455
+exp_dir: experiments\grail_fb_v1_ind
+experiment_name: grail_fb_v1_ind
+gnn_agg_type: sum
+gpu: 0
+has_attn: True
+hop: 3
+kge_model: TransE
+l2: 0.0005
+load_model: False
+local_clustering: False
+lr: 0.01
+main_dir: utils\..
+margin: 10
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+num_bases: 4
+num_epochs: 50
+num_gcn_layers: 3
+num_neg_samples_per_link: 1
+num_workers: 8
+optimizer: Adam
+rel_emb_dim: 32
+save_every: 10
+train_file: train
+use_kge_embeddings: False
+valid_file: valid
+============================================
+Max distance from sub : 3, Max distance from obj : 3
+Max distance from sub : 3, Max distance from obj : 3
+No existing model found. Initializing new model..
+Device: cpu
+Input dim : 8, # Relations : 88, # Augmented relations : 88
+Total number of parameters: 27508
+Starting training with full batch...
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+dataset: fb237_v1_ind
+disable_cuda: False
+dropout: 0
+early_stop: 100
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+eval_every: 3
+eval_every_iter: 455
+exp_dir: experiments\grail_fb_v1_ind
+experiment_name: grail_fb_v1_ind
+gnn_agg_type: sum
+gpu: 0
+has_attn: True
+hop: 3
+kge_model: TransE
+l2: 0.0005
+load_model: False
+local_clustering: False
+lr: 0.01
+main_dir: utils\..
+margin: 10
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+num_bases: 4
+num_epochs: 50
+num_gcn_layers: 3
+num_neg_samples_per_link: 1
+num_workers: 8
+optimizer: Adam
+rel_emb_dim: 32
+save_every: 10
+train_file: train
+use_kge_embeddings: False
+valid_file: valid
+============================================
+Max distance from sub : 3, Max distance from obj : 3
+Max distance from sub : 3, Max distance from obj : 3
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+dataset: fb237_v1_ind
+disable_cuda: False
+dropout: 0
+early_stop: 100
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+eval_every: 3
+eval_every_iter: 455
+exp_dir: experiments\grail_fb_v1_ind
+experiment_name: grail_fb_v1_ind
+gnn_agg_type: sum
+gpu: 0
+has_attn: True
+hop: 3
+kge_model: TransE
+l2: 0.0005
+load_model: False
+local_clustering: False
+lr: 0.01
+main_dir: utils\..
+margin: 10
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+num_bases: 4
+num_epochs: 50
+num_gcn_layers: 3
+num_neg_samples_per_link: 1
+num_workers: 8
+optimizer: Adam
+rel_emb_dim: 32
+save_every: 10
+train_file: train
+use_kge_embeddings: False
+valid_file: valid
+============================================
+Sampling negative links for train
+Sampling negative links for valid

@@ -1,0 +1,351 @@
+============ Initialized logger ============
+add_traspose_rels: False
+batch_size: 16
+constrained_neg_prob: 0
+dataset: fb237_v4_ind
+disable_cuda: False
+enclosing_sub_graph: True
+exp_dir: experiments\grail_fb_v4_ind
+experiment_name: grail_fb_v4_ind
+gpu: 0
+hop: 3
+kge_model: TransE
+main_dir: utils\..
+max_links: 100000
+max_nodes_per_hop: None
+model_type: dgl
+num_neg_samples_per_link: 1
+num_workers: 0
+runs: 1
+test_exp_dir: experiments\grail_fb_v4_ind\test_fb237_v4_ind_0
+test_file: test
+train_file: train
+use_kge_embeddings: False
+============================================
+Loading existing model from experiments\grail_fb_v4_ind\best_graph_classifier.pth
+Device: cpu
+Sampling negative links for test
+Extracting enclosing subgraphs for positive links in test set
+Extracting enclosing subgraphs for negative links in test set
+Max distance from sub : 3, Max distance from obj : 3
+
+Test Set Performance:{'auc': 0.8757705486207551, 'auc_pr': 0.9013226585529229}
+
+Avg test Set Performance -- mean auc :0.8757705486207551 std auc: 0.0
+
+Avg test Set Performance -- mean auc_pr :0.9013226585529229 std auc_pr: 0.0
+============ Initialized logger ============
+add_traspose_rels: False
+batch_size: 16
+constrained_neg_prob: 0
+dataset: fb237_v4_ind
+disable_cuda: False
+enclosing_sub_graph: True
+exp_dir: experiments\grail_fb_v4_ind
+experiment_name: grail_fb_v4_ind
+gpu: 0
+hop: 3
+kge_model: TransE
+main_dir: utils\..
+max_links: 100000
+max_nodes_per_hop: None
+model_type: dgl
+num_neg_samples_per_link: 1
+num_workers: 0
+runs: 1
+test_exp_dir: experiments\grail_fb_v4_ind\test_fb237_v4_ind_0
+test_file: test
+train_file: train
+use_kge_embeddings: False
+============================================
+Loading existing model from experiments\grail_fb_v4_ind\best_graph_classifier.pth
+Device: cpu
+Sampling negative links for test
+Extracting enclosing subgraphs for positive links in test set
+Extracting enclosing subgraphs for negative links in test set
+Max distance from sub : 3, Max distance from obj : 3
+
+Test Set Performance:{'auc': 0.8820680883884612, 'auc_pr': 0.9065408606421779}
+
+Avg test Set Performance -- mean auc :0.8820680883884612 std auc: 0.0
+
+Avg test Set Performance -- mean auc_pr :0.9065408606421779 std auc_pr: 0.0
+============ Initialized logger ============
+add_traspose_rels: False
+batch_size: 16
+constrained_neg_prob: 0
+dataset: fb237_v4_ind
+disable_cuda: False
+enclosing_sub_graph: True
+exp_dir: experiments\grail_fb_v4_ind
+experiment_name: grail_fb_v4_ind
+gpu: 0
+hop: 3
+kge_model: TransE
+main_dir: utils\..
+max_links: 100000
+max_nodes_per_hop: None
+model_type: dgl
+num_neg_samples_per_link: 1
+num_workers: 0
+runs: 1
+test_exp_dir: experiments\grail_fb_v4_ind\test_fb237_v4_ind_0
+test_file: test
+train_file: train
+use_kge_embeddings: False
+============================================
+Loading existing model from experiments\grail_fb_v4_ind\best_graph_classifier.pth
+Device: cpu
+Sampling negative links for test
+============ Initialized logger ============
+add_traspose_rels: False
+batch_size: 16
+constrained_neg_prob: 0
+dataset: fb237_v4_ind
+disable_cuda: False
+enclosing_sub_graph: True
+exp_dir: experiments\grail_fb_v4_ind
+experiment_name: grail_fb_v4_ind
+gpu: 0
+hop: 3
+kge_model: TransE
+main_dir: utils\..
+max_links: 100000
+max_nodes_per_hop: None
+model_type: dgl
+num_neg_samples_per_link: 1
+num_workers: 0
+runs: 1
+test_exp_dir: experiments\grail_fb_v4_ind\test_fb237_v4_ind_0
+test_file: test
+train_file: train
+use_kge_embeddings: False
+============================================
+Loading existing model from experiments\grail_fb_v4_ind\best_graph_classifier.pth
+Device: cpu
+Sampling negative links for test
+Extracting enclosing subgraphs for positive links in test set
+Extracting enclosing subgraphs for negative links in test set
+Max distance from sub : 3, Max distance from obj : 3
+
+Test Set Performance:{'auc': 0.8783055919391491, 'auc_pr': 0.8986466653361046}
+
+Avg test Set Performance -- mean auc :0.8783055919391491 std auc: 0.0
+
+Avg test Set Performance -- mean auc_pr :0.8986466653361046 std auc_pr: 0.0
+============ Initialized logger ============
+add_traspose_rels: False
+batch_size: 16
+constrained_neg_prob: 0
+dataset: fb237_v4_ind
+disable_cuda: False
+enclosing_sub_graph: True
+exp_dir: experiments\grail_fb_v4_ind
+experiment_name: grail_fb_v4_ind
+gpu: 0
+hop: 3
+kge_model: TransE
+main_dir: utils\..
+max_links: 100000
+max_nodes_per_hop: None
+model_type: dgl
+num_neg_samples_per_link: 1
+num_workers: 0
+runs: 1
+test_exp_dir: experiments\grail_fb_v4_ind\test_fb237_v4_ind_0
+test_file: test
+train_file: train
+use_kge_embeddings: False
+============================================
+Loading existing model from experiments\grail_fb_v4_ind\best_graph_classifier.pth
+Device: cpu
+Sampling negative links for test
+Extracting enclosing subgraphs for positive links in test set
+Extracting enclosing subgraphs for negative links in test set
+Max distance from sub : 3, Max distance from obj : 3
+
+Test Set Performance:{'auc': 0.8799800865578841, 'auc_pr': 0.9042218839586884}
+
+Avg test Set Performance -- mean auc :0.8799800865578841 std auc: 0.0
+
+Avg test Set Performance -- mean auc_pr :0.9042218839586884 std auc_pr: 0.0
+============ Initialized logger ============
+add_traspose_rels: False
+batch_size: 16
+constrained_neg_prob: 0
+dataset: fb237_v4_ind
+disable_cuda: False
+enclosing_sub_graph: True
+exp_dir: experiments\grail_fb_v4_ind
+experiment_name: grail_fb_v4_ind
+gpu: 0
+hop: 3
+kge_model: TransE
+main_dir: utils\..
+max_links: 100000
+max_nodes_per_hop: None
+model_type: dgl
+num_neg_samples_per_link: 1
+num_workers: 0
+runs: 1
+test_exp_dir: experiments\grail_fb_v4_ind\test_fb237_v4_ind_0
+test_file: test
+train_file: train
+use_kge_embeddings: False
+============================================
+Loading existing model from experiments\grail_fb_v4_ind\best_graph_classifier.pth
+Device: cpu
+Sampling negative links for test
+Extracting enclosing subgraphs for positive links in test set
+Extracting enclosing subgraphs for negative links in test set
+Max distance from sub : 3, Max distance from obj : 3
+
+Test Set Performance:{'auc': 0.8789644418318396, 'auc_pr': 0.8998655765286488}
+
+Avg test Set Performance -- mean auc :0.8789644418318396 std auc: 0.0
+
+Avg test Set Performance -- mean auc_pr :0.8998655765286488 std auc_pr: 0.0
+============ Initialized logger ============
+add_traspose_rels: False
+batch_size: 16
+constrained_neg_prob: 0
+dataset: fb237_v4_ind
+disable_cuda: False
+enclosing_sub_graph: True
+exp_dir: experiments\grail_fb_v4_ind
+experiment_name: grail_fb_v4_ind
+gpu: 0
+hop: 3
+kge_model: TransE
+main_dir: utils\..
+max_links: 100000
+max_nodes_per_hop: None
+model_type: dgl
+num_neg_samples_per_link: 1
+num_workers: 0
+runs: 1
+test_exp_dir: experiments\grail_fb_v4_ind\test_fb237_v4_ind_0
+test_file: test
+train_file: train
+use_kge_embeddings: False
+============================================
+Loading existing model from experiments\grail_fb_v4_ind\best_graph_classifier.pth
+Device: cpu
+Sampling negative links for test
+Extracting enclosing subgraphs for positive links in test set
+Extracting enclosing subgraphs for negative links in test set
+Max distance from sub : 3, Max distance from obj : 3
+
+Test Set Performance:{'auc': 0.8803090183531121, 'auc_pr': 0.9047809207389778}
+
+Avg test Set Performance -- mean auc :0.8803090183531121 std auc: 0.0
+
+Avg test Set Performance -- mean auc_pr :0.9047809207389778 std auc_pr: 0.0
+============ Initialized logger ============
+add_traspose_rels: False
+batch_size: 16
+constrained_neg_prob: 0
+dataset: fb237_v4_ind
+disable_cuda: False
+enclosing_sub_graph: True
+exp_dir: experiments\grail_fb_v4_ind
+experiment_name: grail_fb_v4_ind
+gpu: 0
+hop: 3
+kge_model: TransE
+main_dir: utils\..
+max_links: 100000
+max_nodes_per_hop: None
+model_type: dgl
+num_neg_samples_per_link: 1
+num_workers: 0
+runs: 1
+test_exp_dir: experiments\grail_fb_v4_ind\test_fb237_v4_ind_0
+test_file: test
+train_file: train
+use_kge_embeddings: False
+============================================
+Loading existing model from experiments\grail_fb_v4_ind\best_graph_classifier.pth
+Device: cpu
+Sampling negative links for test
+Extracting enclosing subgraphs for positive links in test set
+Extracting enclosing subgraphs for negative links in test set
+Max distance from sub : 3, Max distance from obj : 3
+
+Test Set Performance:{'auc': 0.8799941413647268, 'auc_pr': 0.8969618128303507}
+
+Avg test Set Performance -- mean auc :0.8799941413647268 std auc: 0.0
+
+Avg test Set Performance -- mean auc_pr :0.8969618128303507 std auc_pr: 0.0
+============ Initialized logger ============
+add_traspose_rels: False
+batch_size: 16
+constrained_neg_prob: 0
+dataset: fb237_v4_ind
+disable_cuda: False
+enclosing_sub_graph: True
+exp_dir: experiments\grail_fb_v4_ind
+experiment_name: grail_fb_v4_ind
+gpu: 0
+hop: 3
+kge_model: TransE
+main_dir: utils\..
+max_links: 100000
+max_nodes_per_hop: None
+model_type: dgl
+num_neg_samples_per_link: 1
+num_workers: 0
+runs: 1
+test_exp_dir: experiments\grail_fb_v4_ind\test_fb237_v4_ind_0
+test_file: test
+train_file: train
+use_kge_embeddings: False
+============================================
+Loading existing model from experiments\grail_fb_v4_ind\best_graph_classifier.pth
+Device: cpu
+Sampling negative links for test
+Extracting enclosing subgraphs for positive links in test set
+Extracting enclosing subgraphs for negative links in test set
+Max distance from sub : 3, Max distance from obj : 3
+
+Test Set Performance:{'auc': 0.877221399207802, 'auc_pr': 0.896617017183311}
+
+Avg test Set Performance -- mean auc :0.877221399207802 std auc: 0.0
+
+Avg test Set Performance -- mean auc_pr :0.896617017183311 std auc_pr: 0.0
+============ Initialized logger ============
+add_traspose_rels: False
+batch_size: 16
+constrained_neg_prob: 0
+dataset: fb237_v4_ind
+disable_cuda: False
+enclosing_sub_graph: True
+exp_dir: experiments\grail_fb_v4_ind
+experiment_name: grail_fb_v4_ind
+gpu: 0
+hop: 3
+kge_model: TransE
+main_dir: utils\..
+max_links: 100000
+max_nodes_per_hop: None
+model_type: dgl
+num_neg_samples_per_link: 1
+num_workers: 0
+runs: 1
+test_exp_dir: experiments\grail_fb_v4_ind\test_fb237_v4_ind_0
+test_file: test
+train_file: train
+use_kge_embeddings: False
+============================================
+Loading existing model from experiments\grail_fb_v4_ind\best_graph_classifier.pth
+Device: cpu
+Sampling negative links for test
+Extracting enclosing subgraphs for positive links in test set
+Extracting enclosing subgraphs for negative links in test set
+Max distance from sub : 3, Max distance from obj : 3
+
+Test Set Performance:{'auc': 0.8815549646509279, 'auc_pr': 0.9015964875235354}
+
+Avg test Set Performance -- mean auc :0.8815549646509279 std auc: 0.0
+
+Avg test Set Performance -- mean auc_pr :0.9015964875235354 std auc_pr: 0.0
